@@ -58,14 +58,16 @@ body{
 .offer h1{
     font-size: 100px;
     line-height: 150.54px;
+    margin-top: -9px;
 }
 
 .btn{
-    display: inline-block;
+    display: block;
     font-size: 17px;
     text-align: center;
     letter-spacing: 0.1em;
     padding: 17px 47px;
     border: 1px solid #fff;
     color: #fff;
+    width: 238px;
 }
