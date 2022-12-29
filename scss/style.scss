@@ -1,0 +1,71 @@
+@import "nullstyle.scss";
+
+body{
+    font-family: 'Anton', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.header {
+    background: url('../img/header-bg.jpg') no-repeat center top / cover;
+    padding: 57px 0 322px 0;
+}
+.container {
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.logo {
+}
+.menu {
+    display: flex;
+    gap: 40px;
+    margin-left: 69px;
+}
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.menu-item {
+}
+.tel {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+.offer {
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 216px;
+}
+
+.offer p{
+    font-size: 30px;
+    line-height: 45.16px;
+    letter-spacing: 10%;
+}
+
+.offer h1{
+    font-size: 100px;
+    line-height: 150.54px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    color: #fff;
+}
