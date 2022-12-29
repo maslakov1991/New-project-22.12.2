@@ -142,3 +142,37 @@ body {
   color: #fff;
   width: 238px;
 }
+
+.about {
+  margin: 0 auto;
+}
+.about__title {
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 75px;
+  margin-top: 80px;
+}
+.about__columns {
+  display: flex;
+  gap: 36px;
+  margin-top: 58px;
+}
+.about__columns__item {
+  width: 48%;
+}
+.about__subtitle {
+  font-size: 25px;
+  line-height: 37px;
+}
+.about__text {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 19px;
+  margin-bottom: 67px;
+  line-height: 26px;
+}
+.about__img1 {
+  padding-right: 20px;
+}
+.about__img2 {
+  padding-right: 30px;
+}
